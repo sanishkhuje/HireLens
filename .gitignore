@@ -1,0 +1,43 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Next.js build output
+.next/
+**/.next/
+out/
+**/out/
+
+# Build output
+build/
+dist/
+
+# Python environments and generated files
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and coverage
+*.log
+npm-debug.log*
+.coverage
+htmlcov/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
