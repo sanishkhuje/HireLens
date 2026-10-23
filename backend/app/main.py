@@ -1,10 +1,11 @@
-
 from fastapi import FastAPI
 
+from app.core.config import settings
+
 app = FastAPI(
-    title="HireLens API",
+    title=settings.APP_NAME,
     description="Resume screening and explainable candidate matching platform",
-    version="0.1.0",
+    version=settings.APP_VERSION,
 )
 
 
